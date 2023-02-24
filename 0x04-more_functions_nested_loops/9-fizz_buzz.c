@@ -1,10 +1,11 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - main block, solve fizz buzz from numbers 1 to 100
- * Description: Multiples of 3, print Fizz. Multiples of 5, print Buzz.
- * Multiples of both 3 and 5 should print FizzBuzz.
- * Return: 0
+ * main - prints the numbers from 1 to 100, followed by a new line
+ * but for multiples of three prints Fizz instead of the number
+ * and for the multiples of five prints Buzz.
+ * Return: Always 0(Success)
  */
 int main(void)
 {
